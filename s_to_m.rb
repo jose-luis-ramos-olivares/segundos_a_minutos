@@ -5,8 +5,7 @@ def to_minutes(array)
     n.times do |i|
         minutes.push seconds[i]/60
     end
-    print minutes
-    print "\n"
+    return minutes
 end
 
-to_minutes([100, 50, 1000, 5000, 1000, 500])
+print to_minutes([100, 50, 1000, 5000, 1000, 500])
